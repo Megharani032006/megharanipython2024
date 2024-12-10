@@ -1,0 +1,21 @@
+a=int(input("enter 1st number:"))
+b=int(input("enter2nd number:"))
+sum=a+b
+print(sum)
+
+enter 1st number:6
+enter2nd number:7
+13
+
+
+a=float(input("enter 1st number:"))
+b=float(input("enter 2nd number:"))
+sum=a+b
+multiple=a*b
+print(sum)
+print(multiple)
+
+enter 1st number:8
+enter 2nd number:9
+17.0
+72.0

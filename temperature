@@ -1,12 +1,9 @@
-length=float(input("enter the length"))
-width=float(input("enter the width"))
-perimeter=2*(length+width)
-print("area:",area)
-print("perimeter:",perimeter)
+minutes=int(input("emter the number of minutes"))
+hours=minutes//60
+s=minutes%60
+print(f"{minutes} minutes is equal to{hours}hours and {s} minutes.")
 
 
+emter the number of minutes125
+125 minutes is equal to2hours and 5 minutes.
 
-enter the length20
-enter the width25
-area: 706.5
-perimeter: 90.0

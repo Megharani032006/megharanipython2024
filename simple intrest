@@ -1,0 +1,12 @@
+print("enter principle,rate of intrest and time")
+p=float(input())
+t=float(input())
+r=float(input())
+si=(p*t*r)/100
+print(si)
+
+enter principle,rate of intrest and time
+50000
+6
+9
+27000.0

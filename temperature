@@ -1,3 +1,12 @@
-celsius=float(input("enter the celsius"))
-fahrenite =float(celsius*9/5)+32
-print("temperature of fahrenite")
+length=float(input("enter the length"))
+width=float(input("enter the width"))
+perimeter=2*(length+width)
+print("area:",area)
+print("perimeter:",perimeter)
+
+
+
+enter the length20
+enter the width25
+area: 706.5
+perimeter: 90.0

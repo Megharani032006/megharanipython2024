@@ -2,3 +2,8 @@ minutes=int(input("enter minutes"))
 hours=minutes//60
 minutes=minutes%60
 print("hours:,hours")
+
+
+emter the number of minutes125
+125 minutes is equal to2hours and 5 minutes
+

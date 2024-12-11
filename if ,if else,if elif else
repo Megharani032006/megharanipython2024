@@ -1,0 +1,31 @@
+
+if condion
+age=18
+if age>=18:
+  print("you are eligible to vote")
+
+you are eligible to vote
+
+if,else
+
+num=int(input("enter a number"))
+if num%2==0:
+  print("number is even")
+else:
+  print("number is odd")
+
+marks=int(input("enter your marks"))
+if marks>=90:
+  print("grade A")
+elif marks>=80:
+  print("grade B")
+elif marks>=70:
+  print("grade C")
+elif marks>=60:
+    print("grade D")
+else:
+  print("grade F")
+
+
+enter your marks88
+grade B

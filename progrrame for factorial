@@ -1,0 +1,23 @@
+num=int(input('enter a number'))
+fact=1
+for i in range(1,num+1):
+  fact*=i
+  print("the fact is:",fact)
+
+  enter a number6
+the fact is: 1
+the fact is: 2
+the fact is: 6
+the fact is: 24
+the fact is: 120
+the fact is: 720
+
+sum=int(input('enter a number'))
+fact=1
+for i in range(1,num+1):
+  fact*=i
+print("the fact is:",fact)
+
+enter a number6
+the fact is: 720
+

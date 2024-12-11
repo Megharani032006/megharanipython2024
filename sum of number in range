@@ -1,0 +1,10 @@
+s=int(input("enter the s in range"))
+e=int(input("enter the e in range"))
+sum=0
+for i in range(s,e+1):
+  sum+=i
+print("the sum is:",sum)
+
+enter the s in range5
+enter the e in range9
+the sum is: 35

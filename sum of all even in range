@@ -1,0 +1,12 @@
+s=int(input("enter the s in range"))
+e=int(input("enter the e in range"))
+even_sum=0
+for num in range (s,e+1):
+  if num%2==0:
+    even_sum+=num
+    print("sum of even numbers:",even_sum)
+
+enter the s in range6
+enter the e in range9
+sum of even numbers: 6
+sum of even numbers: 14

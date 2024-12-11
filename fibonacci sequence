@@ -1,0 +1,25 @@
+n =int(input("enter the number of terms:"))
+a,b=0,1
+for i in range(n):
+  print(a)
+  a,b=b,a+b
+
+  enter the number of terms:8
+0
+1
+1
+2
+3
+5
+8
+13
+
+
+n =int(input("enter the number of terms:"))
+a,b=0, 1
+for i in range(n):
+  print(a, end=" ")
+  a,b=b, a + b
+
+enter the number of terms:6
+0 1 1 2 3 5 

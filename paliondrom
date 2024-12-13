@@ -1,0 +1,14 @@
+number=int(input("enter a number:"))
+reverse_number=0
+temp=number
+while temp>0:
+  digit=temp%10
+  reverse_number=reverse_number*10+digit
+  temp//10
+if number==reverse_number:
+  print("the number is paliondrom")
+else:
+  print("the number is not paliondrom")
+
+enter a number:121
+the number is paliondrom

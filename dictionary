@@ -1,0 +1,30 @@
+#dictionary
+student={"name":"megha", "age":18, "colour": "white"}
+print(student)
+print(student["name"])
+print(student['colour'])
+print(student["age"])
+
+{'name': 'megha', 'age': 18, 'colour': 'white'}
+megha
+white
+18
+
+#dictionary operations
+student={"name":"sanju","age":18,"marks":95}
+print("name:",student["name"])
+student["marks"]=98
+print("updated marks:",student["marks"])
+
+name: sanju
+updated marks: 98
+
+  #interating through a dictionary
+for key,value in student.items():
+  print(key,value)
+  
+name megha
+age 15
+grade A
+
+

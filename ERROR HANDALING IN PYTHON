@@ -1,0 +1,34 @@
+#TRY EXCEPT BLOCK
+try:
+  num=int(input("enter a number:"))
+  print(10/num)
+except ZeroDivisionError:
+  print("you cannot divide by zero.")
+except valueerror:
+  print("invalid input!please enter a number")
+
+enter a number:0
+you cannot divide by zero.
+
+#finallly block
+try:
+  file=open("/content/megha.txt","r")
+except filenotfounderror:
+  print("filenotfound.")
+finally:
+  print("execution complete.")
+  
+  execution complete.
+
+#raising exeptions
+def check_age(age):
+  if age<18:
+    raise ValueError('age must be 18 or older.')
+  return true
+
+try:
+  check_age(16)
+except ValueError as e:
+  print(e)
+
+  age must be 18 or older.

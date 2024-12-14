@@ -1,0 +1,33 @@
+#file operation
+#opening a file
+file=open("/content/megha.txt", "r")
+
+REASDING FILE
+
+file=open("/content/megha.txt","r")
+content = file.read()
+print(content)
+file.close()
+
+file=open("/content/megha.txt","w")
+file.write("hello,everyone!\n")
+file.close()
+
+file=open("/content/megha.txt","a")
+file.write("my name is megha i from siet.\n")
+file.close()
+
+file=open("/content/megha.txt","a")
+file.write("my name is megha i from siet.\n")
+file.close()
+
+hello,everyone!
+my name is megha i from siet
+
+
+#file handaling modules
+with open("/content/download (1).jpg","rb")as file:
+  data=file.read()
+
+
+/content/download (1).jpg
